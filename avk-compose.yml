@@ -8,7 +8,7 @@ services:
       - "3900:3000"
     environment:
       - NODE_ENV=production
-      - PORT=3000
+      - PORT=3900
       - HOSTNAME=0.0.0.0
     restart: unless-stopped
     healthcheck:
